@@ -7,7 +7,7 @@ e qual o tipo deste campo*/
 const SpotSchema = new mongoose.Schema({
     thumbnail: String,
     company: String,
-    valor: Number,
+    price: Number,
     techs: [String],
     //necessário para saber qual usuário criou este Spot no banco de dados
     user: {
